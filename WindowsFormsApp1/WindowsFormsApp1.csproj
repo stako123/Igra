@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{057B4BBD-D220-4D2E-8E00-C17E5083425D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bread.Designer.cs">
+      <DependentUpon>Bread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cola.Designer.cs">
+      <DependentUpon>Cola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dead.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dead.Designer.cs">
+      <DependentUpon>Dead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="End1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="End1.Designer.cs">
+      <DependentUpon>End1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="End2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="End2.Designer.cs">
+      <DependentUpon>End2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="End3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="End3.Designer.cs">
+      <DependentUpon>End3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="krastavica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="krastavica.Designer.cs">
+      <DependentUpon>krastavica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Milk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Milk.Designer.cs">
+      <DependentUpon>Milk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop.Designer.cs">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tomato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tomato.Designer.cs">
+      <DependentUpon>Tomato.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bread.resx">
+      <DependentUpon>Bread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cola.resx">
+      <DependentUpon>Cola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dead.resx">
+      <DependentUpon>Dead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="End1.resx">
+      <DependentUpon>End1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="End2.resx">
+      <DependentUpon>End2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="End3.resx">
+      <DependentUpon>End3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="krastavica.resx">
+      <DependentUpon>krastavica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Milk.resx">
+      <DependentUpon>Milk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Shop.resx">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tomato.resx">
+      <DependentUpon>Tomato.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="End2.Designer.1" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20220216_175054.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark_Souls_You_Died_Screen_-_Completely_Black_Screen_0-2_screenshot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corp-site-homepage-banner-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1184226145-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fresh_made_bread_05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_93783410-stock-photo-shelves-with-bottles-of-coca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derby11.jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-cucumbers-on-shelf-in-supermarket-organic-eating-agriculture-retailer-farmers-food-2AFMGB4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2419-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4142_4767304621_269ea6774e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomato_je.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2540431589_48451a4d5b_b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20220216_1750541.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2540431589_48451a4d5b_b2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\young-man-standing-full-length-portrait-white-background-141971362.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatherandson.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
